@@ -11,7 +11,7 @@ function App() {
 
   function handleSubmit() {
     setShowResult(false);
-    fetch('https://spam-detector-xkkh.onrender.com/predict', {
+    fetch('https://spamdet.onrender.com/predict', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
